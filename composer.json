@@ -1,0 +1,21 @@
+{
+    "require": {
+        "components/revealjs": "*",
+        "components/highlightjs": "*"
+    },
+    "extra": {
+        "component": {
+            "name": "is-drupal-cms",
+            "scripts": [
+                "assets/drupal-cms.js"
+            ],
+            "styles": [
+                "vendor/components/revealjs/css/theme/default.css",
+                "assets/highlightjs-theme.css"
+            ],
+            "files": [
+                "assets/*"
+            ]
+        }
+    }
+}
