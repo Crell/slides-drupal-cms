@@ -98,14 +98,14 @@
             <blockquote>True CMS's are really just content capturing tools that
               are completely agnostic as to how or where the content will be
               viewed, whether it is a web page, mobile app, TV or radio display, etc.</blockquote>
-            <p>&mdash; Daniel Jacobson, Fmr. Director of Application Development for NPR</p>
+            <p>&mdash; Daniel Jacobson</p>
             <cite><a href="http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/">COPE: Create Once, Publish Everywhere</a></cite>
           </section>
           <section>
             <q>A CMS must be presentation agnostic.  If it is not presentation agnostic, it is not a CMS.</q>
           </section>
           <section>
-            <blockquote>By creating presentation-independent conent that includes meaningful metadata, you'll set yourself up for a future where your content can go anywhere.</blockquote>
+            <blockquote>By creating presentation-independent content that includes meaningful metadata, you'll set yourself up for a future where your content can go anywhere.</blockquote>
             <p>&mdash; Karen McGrane</p>
             <cite><a href="http://www.abookapart.com/products/content-strategy-for-mobile">Content Strategy for Mobile</a></cite>
           </section>
@@ -113,7 +113,26 @@
             <p>A System for Managing Content and metadata</p>
           </section>
           <section>
-            <p>Not displaying it...</p>
+            <p>A CMS consists of chunks, and rules for managing chunks.</p>
+          </section>
+          <section>
+            <h2>This is non-trivial</h2>
+            <blockquote>Sadly, There is no Grand Unified Theory of Making Stuff Appear Together in Some Location</blockquote>
+            <p>&mdash; Deane Barker</p>
+            <cite><a href="http://gadgetopia.com/post/8069">The Art and Practice of Content Assembly</a></cite>
+          </section>
+          <section>
+            <p>"Display" is just a special case of managing.</p>
+          </section>
+          <section>
+            <h2>CMS tools</h2>
+            <ul>
+              <li class="fragment">Taxonomy</li>
+              <li class="fragment">Fields</li>
+              <li class="fragment">Views</li>
+              <li class="fragment">Rules</li>
+              <li class="fragment">Panels</li>
+            </ul>
           </section>
           <section>
             <p>The basic unit of a CMS is the content chunk</p>
@@ -135,11 +154,40 @@
           </section>
           <section>
             <blockquote>WPT's capture content with the primary purpose of publishing web pages.</blockquote>
-            <p>&mdash; Daniel Jacobson, Fmr. Director of Application Development for NPR</p>
+            <p>&mdash; Daniel Jacobson</p>
             <cite><a href="http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/">COPE: Create Once, Publish Everywhere</a></cite>
           </section>
           <section>
             <p>The idyllic WPT is Dreamweaver-in-the-browser</p>
+          </section>
+          <section>
+            <p>Most users think they want this</p>
+            <p class="fragment">(Do they really?)</p>
+            <p class="fragment">(Do we just think they think they want this?)</p>
+          </section>
+          <section>
+            <h2>WPT tools</h2>
+            <ul>
+              <li class="fragment">Edit</li>
+              <li class="fragment">WYSIWYG</li>
+              <li class="fragment">Panelizer</li>
+              <li class="fragment">Media</li>
+              <li class="fragment">Many text filters</li>
+            </ul>
+          </section>
+          <section>
+            <h2><a href="http://denver2012.drupal.org/content/five-things-we-need-create-awesome-experience-content-creators">Spark</a></h2>
+            <h3>DrupalCon Denver</h3>
+            <ol>
+              <li>*Real* WYSIWYG & In-line editing</li>
+              <li>Flexible layout tools</li>
+              <li>Drag and drop *everything*</li>
+              <li>Kick-ass media support</li>
+              <li>... oh yeah, and customized for any device :-)</li>
+            </ol>
+          </section>
+          <section>
+            <q>I want to edit pages</q>
           </section>
           <section>
             <p>The basic unit of a WPT is the page blob</p>
@@ -153,13 +201,29 @@
             <h2>When Worlds Collide</h2>
           </section>
           <section>
-            <img src="assets/badcamp2012.png" alt="BADCamp 2012" />
-            Scotch image
-            Spark image
+            <div><img src="assets/badcamp2012.png" alt="BADCamp 2012" /></div>
+            <div style="">
+              <img src="assets/scotch.jpg" alt="SCOTCH Initiative" />
+              <img src="assets/sparkdrupal.png" alt="Spark Initiative" />
+            </div>
           </section>
           <section>
-
-
+            <div style="float: left;">Building displays</div>
+            <div style="float: right;">Building display rules</div>
+            <div>&ne;</div>
+          </section>
+          <section>
+            <blockquote>The editing interfaces we offer... are affordances...</blockquote>
+            <blockquote class="fragment">If the primary editing interface we present is also the
+              visual design seen by site visitors, we are saying: 'This <em>page</em>
+              is what you manage!' On certain sites, that message is true.</blockquote>
+            <p>&mdash; Jeff Eaton</p>
+            <cite><a href="https://www.lullabot.com/blog/articles/inline-editing-and-cost-leaky-abstractions">Inline Editing and the Cost of Leaky Abstractions</a></cite>
+          </section>
+          <section>
+            <h2>On others...</h2>
+            <a href="https://twitter.com/eaton/statuses/269846750402072576"><img src="assets/page-business-intent.png" alt="A Page is a unit of business intent. --Michael Keara" /></a>
+            <p>&mdash; Michael Keara, @UserAdvocate</p>
           </section>
         </section>
         <section>
@@ -170,6 +234,31 @@
             <h2>What is Drupal?</h2>
           </section>
           <section>
+            <p><q>Where does the edit form go?</q> is a philosophical question</p>
+            <p class="fragment">The answer varies per-site.</p>
+          </section>
+          <section>
+            <h3>Is Drupal a CMS or a WPT?</h3>
+          </section>
+          <section>
+            <h3>Is Drupal a Content Management System or a Web Publishing Tool?</h3>
+          </section>
+          <section>
+            <h3>Is Drupal a System for Managing Content, or for Publishing Pages?</h3>
+          </section>
+          <section>
+            <h3>Is the "page" our basic unit of stuff?</h3>
+          </section>
+          <section>
+            <p>It cannot be both at the same time</p>
+          </section>
+          <section>
+            <p>We don't need to answer that question now</p>
+            <p class="fragment">We need to ask the question every day</p>
+            <p class="fragment">in every issue</p>
+            <p class="fragment">Because your answer is not my answer</p>
+          </section>
+          <section>
             <blockquote>People think in pages... It’s a comfortable metaphor.</blockquote>
             <blockquote class="fragment">In swallowing the red pill of responsive
               design... We need to start talking about content in terms of bits,
@@ -177,14 +266,8 @@
             <p>&mdash; <a href="http://www.markboulton.co.uk/journal/adaptive_content_management">Mark Boulton</a></p>
           </section>
           <section>
-            <a href="https://twitter.com/eaton/statuses/269846750402072576"><img src="assets/page-business-intent.png" alt="A Page is a unit of business intent. --Michael Keara" /></a>
-            <p>&mdash; Michael Keara</p>
-          </section>
-          <section>
-            <h2>Is there such a system?</h2>
-          </section>
-          <section>
-            <h2>Can you name one?</h2>
+            <h3>Is there such a system?</h3>
+            <h3 class="fragment">Can you name one?</h3>
           </section>
           <section>
             <h2>Drupal can be...</h2>
@@ -193,6 +276,21 @@
         <section>
           <q>The way to build a better Web Publishing Tool is to build a better
             CMS first, then build the WPT on top of it.</q>
+        </section>
+        <section>
+          <h2>Further reading</h2>
+          <ul>
+            <li><a href="http://developmentseed.org/blog/2009/oct/28/smallcore-manifesto-help-us-build-better-teddy-bear/">A Smallcore Manifesto</a> <br />&mdash; Adrian Rossouw</li>
+            <li><a href="http://www.garfieldtech.com/blog/small-core-big-ideas">Where do we go from here?</a> <br />&mdash; Larry Garfield</li>
+            <li><a href="http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/">COPE: Create Once, Publish Everywhere</a> <br />&mdash; Daniel Jacobson</li>
+            <li><a href="http://www.abookapart.com/products/content-strategy-for-mobile">Content Strategy for Mobile</a> <br />&mdash; Karen McGrane</li>
+            <li><a href="http://www.markboulton.co.uk/journal/adaptive_content_management">Adaptive Content Management</a> <br />&mdash; Mark Boulton</li>
+            <li><a href="https://www.lullabot.com/blog/articles/inline-editing-and-cost-leaky-abstractions">Inline Editing and the cost of leaky abstractions</a> <br />&mdash; Jeff Eaton</li>
+            <li><a href="http://gadgetopia.com/post/7242">Content Geography</a><br /><a href="http://gadgetopia.com/post/8069">The Art and Practice of Content Assembly</a> <br />&mdash; Deane Barker</li>
+          </ul>
+        </section>
+        <section>
+          <h1>Discuss</h1>
         </section>
       </div>
     </div>
