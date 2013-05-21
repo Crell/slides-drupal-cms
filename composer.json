@@ -10,7 +10,6 @@
                 "assets/drupal-cms.js"
             ],
             "styles": [
-                "components/revealjs/css/theme/default.css",
                 "assets/highlightjs-theme.css"
             ],
             "files": [
